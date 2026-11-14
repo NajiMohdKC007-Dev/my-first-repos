@@ -16,7 +16,7 @@ let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
 
 function showReviews() {
 
-    reviewList.innerHTML = "";
+    reviewList.innerHTML = "kkk";
 
     reviews.forEach(function (item) {
 
